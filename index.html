@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My start-up : Vente de parapluie</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="banner">
+      <div class="containerban">
+        <h1>Votre futur parapluie</h1>
+        <h2>Venez découvrir tous nos parapluies</h2>
+      </div>
+    </div>
+
+    <div>
+      <img class="avatar" src="images/photo_de_profil.jpeg">
+    </div>
+
+
+
+<legend class="legendFabrication">Processus de Fabrication des Parapluies :</legend>
+    <div class="container">
+      <div class="text-column">
+
+        <p>Nous aimerions vous donner un aperçu détaillé du processus de fabrication de nos parapluies de haute qualité. Chez notre entreprise, la fabrication de parapluies est un mélange d'art et de science. Notre engagement envers la qualité commence par la sélection minutieuse des matériaux de base.
+          Nos parapluies sont conçus pour résister aux intempéries et offrir une protection fiable contre la pluie. Cela commence par le choix de cadres en aluminium léger et robuste, qui assurent une structure solide. Les barres du cadre sont soigneusement mesurées et coupées selon des spécifications précises, puis assemblées avec une grande précision.
+          La toile de nos parapluies est également un élément clé de leur conception. Nous utilisons des toiles imperméables de haute qualité qui sont capables de résister aux averses les plus fortes. La toile est fixée sur le cadre avec des coutures renforcées pour garantir qu'elle reste en place, même par temps venteux.
+        </p>
+      </div>
+      <div class="image-column">
+        <img src="images/fonctioparap2.jpg" alt="fonctionnement de mon parapluie">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="image-column">
+        <img src="images/fabrikparap.jpg" alt="atelier de fabrication et de vente de parapluie">
+      </div>
+      <div class="text-column">
+        <p>Chaque parapluie est équipé d'un mécanisme d'ouverture et de fermeture, qui varie en fonction du type de parapluie. Les mécanismes sont soigneusement testés pour s'assurer qu'ils fonctionnent en douceur et de manière fiable. Cela garantit que nos parapluies sont faciles à utiliser et durent longtemps.
+          Notre processus de fabrication comprend également une étape de contrôle de qualité rigoureuse. Chaque parapluie est minutieusement inspecté pour s'assurer qu'il ne présente aucun défaut de fabrication. Notre objectif est de vous offrir un parapluie de haute qualité qui répond à toutes vos attentes en matière de durabilité et de performance.
+          Nous sommes fiers de notre savoir-faire en matière de fabrication de parapluies, et nous travaillons constamment à améliorer nos processus pour vous offrir les meilleurs produits. Si vous avez des questions supplémentaires sur la fabrication de nos parapluies, n'hésitez pas à nous contacter.</p>
+      </div>
+    </div>
+
+    <fieldset>
+      <legend>Magasin de Parapluies :</legend>
+
+      <p>Bienvenue dans notre magasin de parapluies. Faites votre choix :</p>
+
+      <div class="parapluie-options">
+        <div class="parapluie-option">
+          <input type="radio" name="parapluie" value="ParapluieStandard" id="parapluie-standard">
+          <label for="parapluie-standard">Parapluie Standard</label>
+          <p>Prix : 15 €</p>
+          <p>Parapluie standard à ouverture manuelle.</p>
+        </div>
+
+        <div class="parapluie-option">
+          <input type="radio" name="parapluie" value="ParapluiePliant" id="parapluie-pliant">
+          <label for="parapluie-pliant">Parapluie Pliant</label>
+          <p>Prix : 20 €</p>
+          <p>Parapluie pliant compact et facile à transporter.</p>
+        </div>
+
+        <div class="parapluie-option">
+          <input type="radio" name="parapluie" value="ParapluieAutomatique" id="parapluie-automatique">
+          <label for="parapluie-automatique">Parapluie Automatique</label>
+          <p>Prix : 25 €</p>
+          <p>Parapluie automatique avec ouverture et fermeture d'un bouton.</p>
+        </div>
+      </div>
+
+      <p>Choisissez la couleur de votre parapluie :</p>
+      <select name="couleurParapluie" id="couleurParapluie">
+        <option value="Rouge">Rouge</option>
+        <option value="Bleu">Bleu</option>
+        <option value="Vert">Vert</option>
+        <option value="Noir">Noir</option>
+        <option value="Transparent">Transparent</option>
+      </select>
+
+      <p>Combien de parapluies souhaitez-vous acheter ?</p>
+      <input type="number" name="quantiteParapluies" id="quantiteParapluies" min="1" value="1">
+
+      <p>Options supplémentaires :</p>
+      <div class="parapluie-options">
+        <input type="checkbox" name="housseParapluie" id="housseParapluie" value="HousseParapluie">
+        <label for="housseParapluie">Housse de protection pour le parapluie (+5 €)</label>
+
+        <input type="checkbox" name="poigneeParapluie" id="poigneeParapluie" value="PoigneeParapluie">
+        <label for="poigneeParapluie">Poignée en cuir (+10 €)</label>
+      </div>
+    </fieldset>
+
+    <h1 class="h1bis"><center>Nous contacter</center></h1>
+    <fieldset><legend>Votre Profil :</legend>
+    <form id="form" name="form" method="" action="">
+    <p>Genre : </p>
+    <input type="radio" name="genre" value="M">Monsieur
+    <br>
+    <input type="radio" name="genre" value="Mme">Madame
+    <br>
+    <input type="radio" name="genre" value="Autre">Autre
+    <textarea id="" rows="4" cols="30">Si autre, préciser</textarea>
+    <br><br>
+    Nom : <input type="text" name="nom" id="nom">
+    <br><br>
+    Prénom : <input type="text" name="prenom" id="prenom">
+    <br><br>
+    Nationalité : <input type="text" name="nationalite" id="nationalite">
+    <br><br>
+    <textarea id="" rows="4" cols="30">Information
+Supplémentaires</textarea>
+    <br>
+    <input type="submit" value=Envoyer>
+    <br>
+    <input type="reset" value=Nettoyer>
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+.banner{
+  background-image: url(images/background_image.jpg);
+  color: white;
+  padding: 150px 0px;
+  background-position: center;
+}
+
+.banner h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.banner h2{
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+
+.containerban{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+/* Réinitialisation des styles par défaut */
+.legendFabrication{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.text-column, .image-column {
+    flex: 1;
+    border: 1px solid blue; /* Couleur de bordure bleue */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px; /* Bords arrondis de 10px */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body, h1, form, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.h1bis {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+}
+
+fieldset {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #2980b9;
+}
+
+/* Centrer le formulaire */
+#form {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+}
